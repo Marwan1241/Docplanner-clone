@@ -1,0 +1,383 @@
+main{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.navbar{
+    top:0;
+    position: fixed;
+    z-index: 10000;
+    opacity: 98%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 300px 22px 273px;
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+}
+
+
+
+.img-logo{
+
+    width: 268px;
+    height: 33px;
+    box-sizing: inherit;
+
+} 
+
+.navbar .links a{
+
+    display: inline-block;;
+    font-size: .9375rem;
+    font-weight: 600;
+    padding-left: 12px;
+    color: #ababab;
+
+}
+
+.middle{
+
+    margin-top: 105px;
+
+}
+
+.slogan p{
+
+    line-height: 105px;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+article{
+
+    display: inline-flex;
+    width: 65%;
+
+}
+
+article > p{
+
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    box-sizing: inherit;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #747474;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    box-sizing: inherit;
+    width: 67%;
+}
+
+.box {
+   
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 335px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    padding: 4%;
+    vertical-align: middle;
+
+
+}
+
+#box1{
+    background-color: #00ccb1;
+}
+
+#box2{
+    background-color: #3d83df;
+}
+
+#box3{
+    background-color: #1b2734;
+}
+
+.box > img{
+    
+    width: 10%;
+    height: 10%;
+
+}
+
+.box > h1{
+
+    display: flex;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    box-sizing: inherit;
+ 
+}
+
+.box > h2 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.container .box > a{
+
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.15rem;
+}
+
+.sponsers{
+
+    display: flex;
+    margin: 4% 18% 0% 18%;
+}
+
+.sponsers .slogan2{
+
+    display: flex;
+    color:#00b39b;
+    text-align: left;
+    width:30%;
+}
+
+.sponsers .sponserpic img{
+
+    float:right;
+    width:90%;
+}
+
+.stats{
+
+
+    margin-top: 3%;
+    background-color: #D6F6F6;
+    padding:2.5%;
+    padding-right: 15%;
+    width:100%;
+    height: 50%;
+    
+}
+
+.stats__boxes1{
+
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+    margin-bottom: 1%;
+    margin-right: 5%;
+}
+
+.stats__boxes2{
+
+    display:flex;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+    margin-right: 7%;
+
+}
+
+.fade-elements>.fade-elements__visible {
+    transform: translate(0);
+    opacity: 1;
+}
+.stats__item {
+
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+
+.vert-align {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vert-align>* {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.stats__item p {
+    margin: 0;
+}
+
+.stats_text{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stats__text .big_text{
+
+        text-align:left;
+        width:30%;
+        font-size: 2.125rem;
+        color: #00b39b;
+        position:relative;
+        bottom:450px;
+        left:15%;
+}
+
+.stats__text .small_text{
+
+    position: relative;
+    text-align: left;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    left:15%;
+    bottom:425px;
+    
+}
+
+.offices{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+    margin-top: 5%;
+    margin-bottom: -60px;
+    
+}
+
+.offices h1{
+
+    display: block;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.offices1{
+    display: flex;
+    justify-content: center;
+}
+
+.offices1 p{
+
+
+    font-size: .875em;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.office_images{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top:5%;
+    margin-left: 17%;
+    box-sizing: inherit;
+    width: 65%;
+    
+}
+
+.office_images .image img{
+
+    display: block;
+    border-radius: 5px;
+
+}
+
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    color: #747474;
+    position: relative;
+    
+
+}
+
+.office_images .btn {
+    float: right;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+#mexico_city{
+    position: relative;
+    margin-right: 66% ;
+}
+
+.join-us__header h1{
+    margin-top: 10%;
+    font-size: .875em;
+    text-align: center;
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 2%;
+   
+}
+
+footer{
+    margin-top: 10%;
+    font-size: 12px;
+    color: #ababab;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-logo{
+
+        width: 268px;
+        height: 33px;
+        padding-right: 50%;
+    
+    } 
+  }
